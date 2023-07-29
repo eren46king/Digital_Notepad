@@ -25,7 +25,7 @@ $(document).ready(function () {
           </div>
           <div>
             <small>${datetime}</small>
-            <span class="delete" onclick="deleteNote(${index})">Sil</span>
+            <span class="delete" onclick="deleteNote(${index})">Delete</span>
           </div>
         `);
         notesList.append(noteElement);
