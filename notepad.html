@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Notepad</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="notepad.css">
+</head>
+<body>
+  <div class="container mt-4">
+    <h1 class="text-center">Digital Notepad</h1>
+    <form id="noteForm">
+      <div class="form-group">
+        <input type="text" class="form-control" id="title" placeholder="Title">
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" id="notes" rows="5" placeholder="Enter your notes here..."></textarea>
+      </div>
+      <div class="form-group">
+        <input type="datetime-local" class="form-control" id="datetime" placeholder="Date and Time">
+      </div>
+      <button type="submit" class="btn btn-primary">Save</button>
+      <button type="button" class="btn btn-danger" id="clearBtn">Clear</button>
+    </form>
+    <div class="mt-4">
+      <h3 class="text-center">Notes List</h3>
+      <ul class="list-group" id="notesList">
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="notepad.js"></script>
+</body>
+</html>
