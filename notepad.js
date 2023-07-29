@@ -46,7 +46,7 @@ $(document).ready(function () {
       const datetime = $('#datetime').val();
   
       if (title.trim() === '' || notes.trim() === '') {
-        alert('Başlık ve notlar boş olamaz.');
+        alert('Title and Note can not be Empty');
         return;
       }
   
