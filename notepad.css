@@ -63,12 +63,3 @@ body {
     color: #f44336;
     cursor: pointer;
   }   
-
-
-#github {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
